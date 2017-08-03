@@ -1,12 +1,53 @@
 {
-  "name": "openshift-cartridge-nodejs-template",
+  "name": "Empresarios-Siglo-XXI",
   "version": "1.0.1",
-  "description": "Custom Node.js cartridge for OpenShift - sample application",
-  "private": true,
-  "main": "start.js",
+  "description": "WebSite of a Personal Organization in the Network Marketing Industry and member of the International Networkers Team (Builders of Dreams)",
+  "keywords": [
+    "MLM",
+    "Network Marketing",
+    "freedom",
+    "success",
+    "business",
+    "money",
+    "dreams",
+    "Redes de Mercadeo",
+    "multinivel",
+    "libertad",
+    "exito",
+    "negocio",
+    "financiera",
+    "sueños",
+    "int",
+    "4life",
+    "international networkers team",
+    "siglo xxi",
+    "empresario"
+  ],
+  "author": {
+    "name": "rockerint",
+    "email": "jonathanint4life@gmail.com",
+    "url": "jonathanjimenez.co"
+  },
+  "homepage": "http://exxic.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ramr/nodejs-custom-version-openshift"
+  },
+  "engines": {
+    "node": ">= 6.11.2",
+    "npm": ">= 3.10.10"
+  },
+  "dependencies": {
+    "babel-register": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "nodemailer": "^4.0.1"
+  },
   "scripts": {
     "start": "node --use_strict start.js"
   },
-  "author": "Ionut-Cristian Florescu <ionut.florescu@gmail.com>",
-  "license": "ISC"
+  "devDependencies": {},
+  "bundleDependencies": [],
+  "private": true,
+  "main": "start.js"
 }
