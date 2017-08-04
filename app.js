@@ -189,8 +189,8 @@ var Empresarios = function () {
         port: 465,
         secure: true, // secure:true for port 465, secure:false for port 587
         auth: {
-            user: 'jonathanint4life@gmail.com',
-            pass: 'j1o2n3a4t5'
+            user: 'entrepreneurs21stcentury@gmail.com',
+            pass: '$exxic21$**'
         }
     });
 
@@ -211,7 +211,7 @@ var Empresarios = function () {
         self.app.post('/contacto', function (req, res) {
             // setup email data with unicode symbols
             var mailOptions = {
-                from: '"Empresarios Siglo XXI" <jonathanint4life@gmail.com>', // sender address
+                from: '"Empresarios Siglo XXI" <entrepreneurs21stcentury@gmail.com>', // sender address
                 to: 'jonathanint4life@gmail.com', // list of receivers
                 subject: 'Solicitud de Contacto de "' + req.body.name + ' : ' + req.body.email + '"', // Subject line
                 html: '<b>Solicitud de Contacto</b><br><br>'+
@@ -234,7 +234,7 @@ var Empresarios = function () {
         self.app.post('/contact', function (req, res) {
             // setup email data with unicode symbols
             var mailOptions = {
-                from: '"Empresarios Siglo XXI" <jonathanint4life@gmail.com>', // sender address
+                from: '"Empresarios Siglo XXI" <entrepreneurs21stcentury@gmail.com>', // sender address
                 to: 'jonathanint4life@gmail.com', // list of receivers
                 subject: 'Solicitud de Contacto de "' + req.body.name + ' : ' + req.body.email + '"', // Subject line
                 html: '<b>Solicitud de Contacto</b><br><br>'+
